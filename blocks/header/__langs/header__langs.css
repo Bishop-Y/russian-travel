@@ -1,0 +1,9 @@
+@import url(./__ru/header__langs__ru.css);
+@import url(./__en/header__langs__en.css);
+
+.header__langs {
+    width: 77px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 96px;
+}
