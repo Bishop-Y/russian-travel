@@ -29,6 +29,7 @@
         grid-template-rows: 1fr 1fr;
         grid-row-gap: 16px;
         grid-column-gap: 16px;
+        padding-top: 88px;
     }
 }
 
@@ -40,6 +41,7 @@
         grid-row-gap: 16px;
         grid-column-gap: 16px;
         width: 80%;
+        padding-top: 88px;
     }
 }
 
@@ -49,5 +51,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-row-gap: 16px;
+        padding-top: 64px;
     }
 }
