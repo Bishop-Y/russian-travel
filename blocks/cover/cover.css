@@ -3,10 +3,24 @@
 @import url(./__image/cover__image.css);
 
 .cover{
+    display: flex;
+    flex-direction: column;
     max-width: 1184px;
     max-height: 740px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12px;
+    margin-top: 90px;
     position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .cover{
+        margin-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .cover{
+        margin-top: 64px;
+    }
 }
