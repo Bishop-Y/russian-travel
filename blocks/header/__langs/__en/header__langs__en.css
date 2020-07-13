@@ -1,5 +1,5 @@
 .header__langs__en{
-    width: 29px;
+    max-width: 29px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -12,4 +12,17 @@
 
 .header__langs__en:hover {
     opacity: 0.8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .header__langs__en{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
 }
