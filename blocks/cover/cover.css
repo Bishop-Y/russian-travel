@@ -4,8 +4,6 @@
 @import url(./__link/cover__link.css);
 
 .cover{
-    background-size: 100%;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
