@@ -1,17 +1,32 @@
-@import url(./__ru/header__langs__ru.css);
-@import url(./__en/header__langs__en.css);
+@import url(./_active/header__langs_active.css);
 
 .header__langs {
-    width: 77px;
     display: flex;
     justify-content: space-between;
     padding-top: 14px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: right;
+    text-decoration: none;
+    padding-right: 18px;
+}
+
+.header__langs:last-of-type{
+    padding-right: 0px;
+}
+
+.header__langs:hover {
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
-    .header__langs{
-        width: 64px;
-        max-height: 24px;
-        padding-top: 14px;
+    .header__langs {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 11px;
     }
 }

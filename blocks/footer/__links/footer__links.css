@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    list-style-type: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     .footer__links{
-        display: flex;
         flex-direction: column;
     }
 }

@@ -1,6 +1,6 @@
 .lead__caption{
     width: 984px;
-    font-family: Inter;
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -8,15 +8,16 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 148px;
     margin-top: 8px;
     margin-bottom: 0px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1024px) and (max-width: 1279px){
     .lead__caption{
         width: 928px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -29,7 +30,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     .lead__caption{
-        width: 95%;
-        margin-left: 18px;
+        width: 94%;
+        margin-left: 17px;
     }
 }

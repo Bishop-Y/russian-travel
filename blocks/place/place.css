@@ -9,7 +9,7 @@
 .place{
     position: relative;
     width: 100%;
-    margin-bottom: 80px;
+    margin-top: 80px;
     display: grid;
     grid-column-gap: 40px;
     grid-row-gap: 48px;
@@ -18,8 +18,8 @@
     "place__image place__paragraphs";
 }
 
-.place:last-of-type{
-    margin-bottom: 0px;
+.place:first-of-type{
+    margin-top: 0px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
@@ -31,7 +31,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .place{
         grid-column-gap: 28px;
-        margin-bottom: -34px;
+        margin-bottom: 72px;
     }
 }
 
@@ -43,6 +43,6 @@
         "place__paragraphs";
         justify-content: center;
         grid-row-gap: 32px;
-        margin-bottom: 83px;
+        margin-bottom: 64px;
     }
 }
